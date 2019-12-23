@@ -1,0 +1,21 @@
+#include<iostream>
+#include<string>
+using namespace std;
+
+main(){
+
+	int counter=1;
+	while(counter<=5){
+		
+	if(counter==1 ||counter==5){
+		
+		
+		cout<<"* * * * *\n";
+	}
+	else{
+		cout<<"*       *\n";
+	}
+	counter++;
+	}
+
+}
